@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ValidarLogin</servlet-name>
+  	<display-name>ValidarLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.fabriziomasciangioli.servlets.ValidarLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AlumnoControlador</servlet-name>
+  	<display-name>AlumnoControlador</display-name>
+  	<description></description>
+  	<servlet-class>com.fabriziomasciangioli.servlets.AlumnoControlador</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ValidarLogin</servlet-name>
+  	<url-pattern>/ValidarLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AlumnoControlador</servlet-name>
+  	<url-pattern>/AlumnoControlador</url-pattern>
+  </servlet-mapping>
+</web-app>
